@@ -1,0 +1,5 @@
+Agora devemos dizer ao Arduino o que fazer. Primeiro, decidi usar um botão que me permite escolher se o sistema está ligado ou desligado e, consequentemente, ligar o led vermelho ou verde.
+Desta forma, temos um programa que nos permite, através do premir de um botão, escolher entre dois "estados" do sistema, que para nós serão ligados e desligados. Agora vamos detalhar o que o sistema deve fazer quando está ligado: você precisa ter certeza de que o laser liga e que o resistor foto resistente, em caso de falta de luz (que iremos fornecer apontando o laser contra ele) fará a campainha soar como se o alarme foi disparado.
+Se você entendeu o código, já terá uma ideia de como montar tudo. Para evitar dúvidas, está disponibilizado no repositório um diagrama esquemático das ligações realizadas nomeado de “Diagrama do projeto”. 
+No teste, o sistema foi conectado a um computador e eu tive que usar um espelho para fazer o laser atingir o fotodiodo. Na realidade, tendo a possibilidade de soldar ou simplesmente conectar fios mais longos, é possível remover o problema do espelho e usar a fonte de alimentação externa tem um sistema de alarme real.
+
